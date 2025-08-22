@@ -154,7 +154,7 @@ export default function Title() {
 
   return (
       <div className="bg-black min-h-screen flex flex-col items-center justify-center">
-  <h1 className="flex text-6xl font-bold text-white relative font-mono" style={{ fontWeight: 700 }}>
+        <h1 className="flex text-6xl font-bold text-white relative" style={{ fontFamily: "'font-mono', sans-serif", fontWeight: 700 }}>
           {firstName.map((letter, i) => (
             <motion.span
               key={i}
@@ -187,6 +187,7 @@ export default function Title() {
             }
           `}</style>
         </h1>
+    <p className="mt-4 text-center text-lg text-neutral-300 font-mono" style={{ textShadow: '0 0 8px #fff, 0 0 16px #fff' }}>Welcome to the hub</p>
       </div>
   );
 }
