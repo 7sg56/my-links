@@ -23,27 +23,27 @@ export const Dock = () => {
     {
       title: "GitHub",
       icon: <IconBrandGithub className="h-5 w-5" />,
-      href: "https://github.com/yourusername",
+      href: "https://github.com/7sg56",
     },
     {
       title: "LinkedIn",
       icon: <IconBrandLinkedin className="h-5 w-5" />,
-      href: "https://linkedin.com/in/yourusername",
+      href: "https://linkedin.com/in/7sg56",
     },
     {
       title: "Instagram",
       icon: <IconBrandInstagram className="h-5 w-5" />,
-      href: "https://instagram.com/yourusername",
+      href: "https://instagram.com/s0urishg",
     },
     {
       title: "Twitter",
       icon: <IconBrandX className="h-5 w-5" />,
-      href: "https://twitter.com/yourusername",
+      href: "https://twitter.com/sourishghosh777",
     },
     {
       title: "Email",
       icon: <IconMail className="h-5 w-5" />,
-      href: "mailto:your.email@example.com",
+      href: "mailto:sghosh.ile.7@gmail.com",
     },
   ];
 
