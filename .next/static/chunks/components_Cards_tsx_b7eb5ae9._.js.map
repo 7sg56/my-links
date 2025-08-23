@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/7sg56/Developer/My%20Shit/My%20Stuff/my-links/my-app/components/Cards.tsx"],"sourcesContent":["\n\"use client\";\n\nimport { Card } from \"flowbite-react\";\nimport Image from \"next/image\";\n\nexport function Component() {\n  return (\n    <Card\n      className=\"max-w-sm\"\n      renderImage={() => <Image width={500} height={500} src=\"./placeholder.png\" alt=\"image 1\" />}\n    >\n      <h5 className=\"text-2xl font-bold tracking-tight text-gray-900 dark:text-white\">\n        Noteworthy technology acquisitions 2021\n      </h5>\n      <p className=\"font-normal text-gray-700 dark:text-gray-400\">\n        Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.\n      </p>\n    </Card>\n  );\n}\n"],"names":[],"mappings":";;;;;AAGA;AACA;AAHA;;;;AAKO,SAAS;IACd,qBACE,6LAAC,kLAAI;QACH,WAAU;QACV,aAAa,kBAAM,6LAAC,2IAAK;gBAAC,OAAO;gBAAK,QAAQ;gBAAK,KAAI;gBAAoB,KAAI;;;;;;;0BAE/E,6LAAC;gBAAG,WAAU;0BAAkE;;;;;;0BAGhF,6LAAC;gBAAE,WAAU;0BAA+C;;;;;;;;;;;;AAKlE;KAdgB","debugId":null}}]
+}
