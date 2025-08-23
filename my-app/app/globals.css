@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 @import "tailwindcss";
-@import "tw-animate-css";
+@import "./stars.css";
 
 @custom-variant dark (&:is(.dark *));
 
@@ -56,14 +57,14 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
+  --font-sans: 'Roboto Slab', serif;
   --font-mono: var(--font-geist-mono);
 }
 
 :root {
   --radius: 0.625rem;
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.141 0.005 285.823);
+  --background: #ffffff;
+  --foreground: #171717;
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.141 0.005 285.823);
   --popover: oklch(1 0 0);
@@ -129,6 +130,20 @@
   --sidebar-ring: oklch(0.552 0.016 285.938);
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: radial-gradient(ellipse at bottom,rgb(22, 31, 42) 0%,rgb(8, 9, 13) 100%);
+  color: var(--foreground);
+  font-family: 'Roboto Slab', serif;
+  overflow: hidden;
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
@@ -137,3 +152,4 @@
     @apply bg-background text-foreground;
   }
 }
+
